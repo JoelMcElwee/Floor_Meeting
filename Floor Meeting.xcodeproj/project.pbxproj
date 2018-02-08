@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		460060042028C1EA0086F0D6 /* Residents.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 460060032028C1EA0086F0D6 /* Residents.storyboard */; };
+		460060062028C1FC0086F0D6 /* Events.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 460060052028C1FC0086F0D6 /* Events.storyboard */; };
+		460060082028C20D0086F0D6 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 460060072028C20D0086F0D6 /* Profile.storyboard */; };
+		4600600A2028C2180086F0D6 /* Training.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 460060092028C2180086F0D6 /* Training.storyboard */; };
+		4600600C2028DD3E0086F0D6 /* tabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4600600B2028DD3E0086F0D6 /* tabBarViewController.swift */; };
+		4600600E2028E5F00086F0D6 /* DutyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4600600D2028E5F00086F0D6 /* DutyViewController.swift */; };
+		460060102028E6180086F0D6 /* ResidentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4600600F2028E6180086F0D6 /* ResidentsViewController.swift */; };
+		460060122028E6220086F0D6 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460060112028E6220086F0D6 /* EventsViewController.swift */; };
+		460060142028E62C0086F0D6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460060132028E62C0086F0D6 /* ProfileViewController.swift */; };
+		460060162028E6380086F0D6 /* TrainingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460060152028E6380086F0D6 /* TrainingViewController.swift */; };
+		4600601E202A29200086F0D6 /* AppStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4600601D202A29200086F0D6 /* AppStoryboard.swift */; };
+		4629E6B0202BF85900915D33 /* Duty.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4629E6AF202BF85900915D33 /* Duty.storyboard */; };
+		4629E6B2202BFF9700915D33 /* TrainingNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4629E6B1202BFF9700915D33 /* TrainingNav.swift */; };
+		4629E6B4202C00B500915D33 /* ProfileNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4629E6B3202C00B500915D33 /* ProfileNav.swift */; };
+		4629E6B6202C00C600915D33 /* EventsNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4629E6B5202C00C600915D33 /* EventsNav.swift */; };
+		4629E6B8202C00D400915D33 /* ResidentsNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4629E6B7202C00D400915D33 /* ResidentsNav.swift */; };
+		4629E6BA202C00E700915D33 /* DutyNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4629E6B9202C00E700915D33 /* DutyNav.swift */; };
 		46D0519D202568730077A39B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D0519C202568730077A39B /* AppDelegate.swift */; };
 		46D0519F202568730077A39B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D0519E202568730077A39B /* ViewController.swift */; };
 		46D051A2202568730077A39B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D051A0202568730077A39B /* Main.storyboard */; };
@@ -35,6 +52,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		460060032028C1EA0086F0D6 /* Residents.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Residents.storyboard; sourceTree = "<group>"; };
+		460060052028C1FC0086F0D6 /* Events.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Events.storyboard; sourceTree = "<group>"; };
+		460060072028C20D0086F0D6 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		460060092028C2180086F0D6 /* Training.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Training.storyboard; sourceTree = "<group>"; };
+		4600600B2028DD3E0086F0D6 /* tabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBarViewController.swift; sourceTree = "<group>"; };
+		4600600D2028E5F00086F0D6 /* DutyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutyViewController.swift; sourceTree = "<group>"; };
+		4600600F2028E6180086F0D6 /* ResidentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResidentsViewController.swift; sourceTree = "<group>"; };
+		460060112028E6220086F0D6 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		460060132028E62C0086F0D6 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		460060152028E6380086F0D6 /* TrainingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingViewController.swift; sourceTree = "<group>"; };
+		4600601D202A29200086F0D6 /* AppStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoryboard.swift; sourceTree = "<group>"; };
+		4629E6AF202BF85900915D33 /* Duty.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Duty.storyboard; sourceTree = "<group>"; };
+		4629E6B1202BFF9700915D33 /* TrainingNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingNav.swift; sourceTree = "<group>"; };
+		4629E6B3202C00B500915D33 /* ProfileNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileNav.swift; sourceTree = "<group>"; };
+		4629E6B5202C00C600915D33 /* EventsNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsNav.swift; sourceTree = "<group>"; };
+		4629E6B7202C00D400915D33 /* ResidentsNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResidentsNav.swift; sourceTree = "<group>"; };
+		4629E6B9202C00E700915D33 /* DutyNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutyNav.swift; sourceTree = "<group>"; };
 		46D05199202568730077A39B /* Floor Meeting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Floor Meeting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46D0519C202568730077A39B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46D0519E202568730077A39B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +110,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		460060172028E64A0086F0D6 /* Duty */ = {
+			isa = PBXGroup;
+			children = (
+				4629E6AF202BF85900915D33 /* Duty.storyboard */,
+				4600600D2028E5F00086F0D6 /* DutyViewController.swift */,
+				4629E6B9202C00E700915D33 /* DutyNav.swift */,
+			);
+			path = Duty;
+			sourceTree = "<group>";
+		};
+		460060182028E65E0086F0D6 /* Residents */ = {
+			isa = PBXGroup;
+			children = (
+				460060032028C1EA0086F0D6 /* Residents.storyboard */,
+				4600600F2028E6180086F0D6 /* ResidentsViewController.swift */,
+				4629E6B7202C00D400915D33 /* ResidentsNav.swift */,
+			);
+			path = Residents;
+			sourceTree = "<group>";
+		};
+		460060192028E66B0086F0D6 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				460060052028C1FC0086F0D6 /* Events.storyboard */,
+				460060112028E6220086F0D6 /* EventsViewController.swift */,
+				4629E6B5202C00C600915D33 /* EventsNav.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		4600601A2028E6750086F0D6 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				460060072028C20D0086F0D6 /* Profile.storyboard */,
+				460060132028E62C0086F0D6 /* ProfileViewController.swift */,
+				4629E6B3202C00B500915D33 /* ProfileNav.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		4600601B2028E67E0086F0D6 /* Training */ = {
+			isa = PBXGroup;
+			children = (
+				460060092028C2180086F0D6 /* Training.storyboard */,
+				460060152028E6380086F0D6 /* TrainingViewController.swift */,
+				4629E6B1202BFF9700915D33 /* TrainingNav.swift */,
+			);
+			path = Training;
+			sourceTree = "<group>";
+		};
+		4600601C2028E6A60086F0D6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				46D051A0202568730077A39B /* Main.storyboard */,
+				4600600B2028DD3E0086F0D6 /* tabBarViewController.swift */,
+				46D051CA20258D830077A39B /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		46D05190202568730077A39B = {
 			isa = PBXGroup;
 			children = (
@@ -101,11 +195,16 @@
 			children = (
 				46D0519C202568730077A39B /* AppDelegate.swift */,
 				46D0519E202568730077A39B /* ViewController.swift */,
-				46D051A0202568730077A39B /* Main.storyboard */,
-				46D051CA20258D830077A39B /* LoginViewController.swift */,
+				4600601D202A29200086F0D6 /* AppStoryboard.swift */,
+				4600601C2028E6A60086F0D6 /* Login */,
 				46D051A3202568730077A39B /* Assets.xcassets */,
 				46D051A5202568730077A39B /* LaunchScreen.storyboard */,
 				46D051A8202568730077A39B /* Info.plist */,
+				460060172028E64A0086F0D6 /* Duty */,
+				460060182028E65E0086F0D6 /* Residents */,
+				460060192028E66B0086F0D6 /* Events */,
+				4600601A2028E6750086F0D6 /* Profile */,
+				4600601B2028E67E0086F0D6 /* Training */,
 			);
 			path = "Floor Meeting";
 			sourceTree = "<group>";
@@ -235,9 +334,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				460060042028C1EA0086F0D6 /* Residents.storyboard in Resources */,
 				46D051A7202568730077A39B /* LaunchScreen.storyboard in Resources */,
 				46D051A4202568730077A39B /* Assets.xcassets in Resources */,
 				46D051A2202568730077A39B /* Main.storyboard in Resources */,
+				4629E6B0202BF85900915D33 /* Duty.storyboard in Resources */,
+				460060082028C20D0086F0D6 /* Profile.storyboard in Resources */,
+				4600600A2028C2180086F0D6 /* Training.storyboard in Resources */,
+				460060062028C1FC0086F0D6 /* Events.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +366,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4629E6BA202C00E700915D33 /* DutyNav.swift in Sources */,
+				4600601E202A29200086F0D6 /* AppStoryboard.swift in Sources */,
+				4629E6B6202C00C600915D33 /* EventsNav.swift in Sources */,
+				460060162028E6380086F0D6 /* TrainingViewController.swift in Sources */,
+				4629E6B8202C00D400915D33 /* ResidentsNav.swift in Sources */,
+				4600600C2028DD3E0086F0D6 /* tabBarViewController.swift in Sources */,
 				46D051CB20258D830077A39B /* LoginViewController.swift in Sources */,
+				4629E6B2202BFF9700915D33 /* TrainingNav.swift in Sources */,
+				460060102028E6180086F0D6 /* ResidentsViewController.swift in Sources */,
 				46D0519F202568730077A39B /* ViewController.swift in Sources */,
+				460060122028E6220086F0D6 /* EventsViewController.swift in Sources */,
+				4600600E2028E5F00086F0D6 /* DutyViewController.swift in Sources */,
+				4629E6B4202C00B500915D33 /* ProfileNav.swift in Sources */,
+				460060142028E62C0086F0D6 /* ProfileViewController.swift in Sources */,
 				46D0519D202568730077A39B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

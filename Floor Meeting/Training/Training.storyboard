@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Rwf-ID-m1e">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--TRAINING-->
+        <scene sceneID="NWs-eh-yo8">
+            <objects>
+                <viewController storyboardIdentifier="trainView" id="0lR-SD-g8U" customClass="TrainingViewController" customModule="Floor_Meeting" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="O1c-v2-Xbl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="rnH-ci-4DF"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Training" image="Training Icon" id="3pB-mZ-HHn"/>
+                    <navigationItem key="navigationItem" title="TRAINING" id="pHz-em-l8u"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AS4-D6-vnS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3207" y="-779"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="ZhM-eV-L48">
+            <objects>
+                <navigationController id="Rwf-ID-m1e" customClass="TrainingNav" customModule="Floor_Meeting" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="era-BI-a5A"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lFj-if-rvF">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="0lR-SD-g8U" kind="relationship" relationship="rootViewController" id="JfK-01-3oG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rck-Iv-7lC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2514" y="-779"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Training Icon" width="29" height="29"/>
+    </resources>
+</document>

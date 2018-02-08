@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QhF-kQ-aTu">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--EVENTS-->
+        <scene sceneID="frl-qN-J9p">
+            <objects>
+                <viewController storyboardIdentifier="eventsView" id="6NY-y1-QEB" customClass="EventsViewController" customModule="Floor_Meeting" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="t8n-Sw-0JX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Xcf-iv-Yk1"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Events" image="Events Icon" id="KQD-iG-zD4"/>
+                    <navigationItem key="navigationItem" title="EVENTS" id="D66-YI-0EH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GMw-RQ-asN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2591" y="790"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="wYs-Eg-1fw">
+            <objects>
+                <navigationController id="QhF-kQ-aTu" customClass="EventsNav" customModule="Floor_Meeting" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Ie5-86-sxy"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="JMT-FZ-K6t">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="6NY-y1-QEB" kind="relationship" relationship="rootViewController" id="1qf-hV-LcY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PwU-op-KJu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1796" y="791"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Events Icon" width="29" height="29"/>
+    </resources>
+</document>

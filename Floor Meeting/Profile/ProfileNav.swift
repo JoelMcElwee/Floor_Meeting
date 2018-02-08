@@ -1,31 +1,25 @@
 //
-//  LoginViewController.swift
+//  ProfileNav.swift
 //  Floor Meeting
 //
-//  Created by Joel McElwee on 2/3/18.
+//  Created by Joel McElwee on 2/7/18.
 //  Copyright © 2018 Joel McElwee. All rights reserved.
 //
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class ProfileNav: UINavigationController {
     
-    @IBOutlet weak var login_Button_Outlet: UIButton!
-    
-    @IBOutlet weak var signup_Button_Outlet: UIButton!
-    
-    @IBAction func login_Button_Action(_ sender: Any) {
-        print("login")
+    static func storyboardInstance() -> ProfileNav? {
+        let storyboard = UIStoryboard(name: "Profile", bundle: nil)
+        
+        return storyboard.instantiateInitialViewController() as? ProfileNav
     }
-    @IBAction func signup_Button_Action(_ sender: Any) {
-        print("sign-up")
-    }
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        login_Button_Outlet.layer.cornerRadius = 10
-        signup_Button_Outlet.layer.cornerRadius = 10
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
