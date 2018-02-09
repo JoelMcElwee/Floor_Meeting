@@ -12,7 +12,13 @@ import UIKit
 
 class DutyViewController: UIViewController {
 
-    @IBOutlet weak var testLabel: UILabel!
+    func dismissFunc() {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func backAction(_ sender: Any) {
+        dismissFunc()
+    }
     
     override func viewDidLoad() {
         

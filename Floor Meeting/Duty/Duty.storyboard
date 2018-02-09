@@ -6,9 +6,27 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+        <array key="Roboto-BlackItalic.ttf">
+            <string>Roboto-BlackItalic</string>
+        </array>
+        <array key="Roboto-Light.ttf">
+            <string>Roboto-Light</string>
+        </array>
+        <array key="Roboto-LightItalic.ttf">
+            <string>Roboto-LightItalic</string>
+        </array>
+        <array key="Roboto-Thin.ttf">
+            <string>Roboto-Thin</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--dutyView-->
         <scene sceneID="PVW-Kl-Kvm">
@@ -17,14 +35,219 @@
                     <view key="view" contentMode="scaleToFill" id="fsQ-UF-568">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kKb-Ob-cmh">
+                                <rect key="frame" x="16" y="332" width="343" height="111"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="111" id="xja-8U-vGP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="Duty Handbook"/>
+                                <connections>
+                                    <segue destination="iTa-Cx-lgu" kind="popoverPresentation" popoverAnchorView="kKb-Ob-cmh" id="zlm-bk-DVU">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dt8-3C-U7d">
+                                <rect key="frame" x="16" y="213" width="343" height="111"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="111" id="z1A-sh-8ls"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="Start Round"/>
+                                <connections>
+                                    <segue destination="79z-R5-Wlk" kind="popoverPresentation" popoverAnchorView="Dt8-3C-U7d" id="heQ-jl-ZnA">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xgY-7b-HUI">
+                                <rect key="frame" x="16" y="94" width="343" height="111"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="111" id="REM-3b-3xm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-BlackItalic" family="Roboto" pointSize="34"/>
+                                <state key="normal" title="Plan Duty"/>
+                                <connections>
+                                    <segue destination="Dke-8u-9DQ" kind="popoverPresentation" popoverAnchorView="xgY-7b-HUI" id="di9-Y4-Ig3">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UaE-hn-W81">
+                                <rect key="frame" x="16" y="451" width="343" height="111"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <state key="normal" title="Duty Log"/>
+                                <connections>
+                                    <segue destination="5Ca-UB-u0E" kind="popoverPresentation" popoverAnchorView="UaE-hn-W81" id="d1v-Hj-Fxb">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.84176925589999996" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="kKb-Ob-cmh" firstAttribute="leading" secondItem="UaE-hn-W81" secondAttribute="leading" id="6fW-a8-0us"/>
+                            <constraint firstItem="xgY-7b-HUI" firstAttribute="trailing" secondItem="Dt8-3C-U7d" secondAttribute="trailing" id="DB2-z1-u6y"/>
+                            <constraint firstItem="xgY-7b-HUI" firstAttribute="top" secondItem="Q76-Fy-6fX" secondAttribute="top" constant="30" id="EgL-dp-vNj"/>
+                            <constraint firstItem="xgY-7b-HUI" firstAttribute="trailing" secondItem="fsQ-UF-568" secondAttribute="trailingMargin" id="GMt-yO-hoT"/>
+                            <constraint firstItem="Q76-Fy-6fX" firstAttribute="bottom" secondItem="UaE-hn-W81" secondAttribute="bottom" constant="105" id="LHK-pv-QG7"/>
+                            <constraint firstItem="xgY-7b-HUI" firstAttribute="leading" secondItem="Dt8-3C-U7d" secondAttribute="leading" id="ZxR-7U-7oy"/>
+                            <constraint firstItem="kKb-Ob-cmh" firstAttribute="trailing" secondItem="UaE-hn-W81" secondAttribute="trailing" id="cpN-1N-Uhn"/>
+                            <constraint firstItem="UaE-hn-W81" firstAttribute="top" secondItem="kKb-Ob-cmh" secondAttribute="bottom" constant="8" symbolic="YES" id="er8-Te-jf5"/>
+                            <constraint firstItem="Dt8-3C-U7d" firstAttribute="trailing" secondItem="kKb-Ob-cmh" secondAttribute="trailing" id="geJ-kl-8hy"/>
+                            <constraint firstItem="Dt8-3C-U7d" firstAttribute="leading" secondItem="kKb-Ob-cmh" secondAttribute="leading" id="wTB-g6-mY0"/>
+                            <constraint firstItem="xgY-7b-HUI" firstAttribute="leading" secondItem="fsQ-UF-568" secondAttribute="leadingMargin" id="xNx-RJ-TfJ"/>
+                            <constraint firstItem="kKb-Ob-cmh" firstAttribute="top" secondItem="Dt8-3C-U7d" secondAttribute="bottom" constant="8" symbolic="YES" id="yaq-Nl-OER"/>
+                            <constraint firstItem="Dt8-3C-U7d" firstAttribute="top" secondItem="xgY-7b-HUI" secondAttribute="bottom" constant="8" symbolic="YES" id="zMj-qV-nEY"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Q76-Fy-6fX"/>
                     </view>
                     <navigationItem key="navigationItem" title="DUTY" id="EE5-Y5-1WI"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VXR-yG-6nO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-191" y="143"/>
+            <point key="canvasLocation" x="-191.19999999999999" y="142.57871064467767"/>
+        </scene>
+        <!--Duty View Controller-->
+        <scene sceneID="9m2-oW-8Ry">
+            <objects>
+                <viewController id="79z-R5-Wlk" customClass="DutyViewController" customModule="Floor_Meeting" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wBn-CK-z8t">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start Round" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="doQ-3u-GaA">
+                                <rect key="frame" x="41" y="43" width="293" height="83"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="doQ-3u-GaA" firstAttribute="leading" secondItem="vk0-5p-seL" secondAttribute="leading" constant="41" id="70m-tD-wop"/>
+                            <constraint firstItem="doQ-3u-GaA" firstAttribute="centerX" secondItem="wBn-CK-z8t" secondAttribute="centerX" id="So8-JT-PHM"/>
+                            <constraint firstItem="vk0-5p-seL" firstAttribute="bottom" secondItem="doQ-3u-GaA" secondAttribute="bottom" constant="541" id="YLo-RZ-rU4"/>
+                            <constraint firstItem="doQ-3u-GaA" firstAttribute="top" secondItem="vk0-5p-seL" secondAttribute="top" constant="23" id="cy6-dj-O01"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="vk0-5p-seL"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6WD-e9-702" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="606" y="527"/>
+        </scene>
+        <!--Duty View Controller-->
+        <scene sceneID="VKH-eu-u1R">
+            <objects>
+                <viewController id="5Ca-UB-u0E" customClass="DutyViewController" customModule="Floor_Meeting" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yeD-BH-r6W">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Duty Log" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qOL-0c-omf">
+                                <rect key="frame" x="41" y="37" width="293" height="83"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="qOL-0c-omf" firstAttribute="leading" secondItem="DPm-im-Lhb" secondAttribute="leading" constant="41" id="23c-T5-KIo"/>
+                            <constraint firstItem="DPm-im-Lhb" firstAttribute="bottom" secondItem="qOL-0c-omf" secondAttribute="bottom" constant="547" id="3Tu-1E-lEQ"/>
+                            <constraint firstItem="qOL-0c-omf" firstAttribute="top" secondItem="DPm-im-Lhb" secondAttribute="top" constant="17" id="Dsn-hZ-eC4"/>
+                            <constraint firstItem="qOL-0c-omf" firstAttribute="centerX" secondItem="yeD-BH-r6W" secondAttribute="centerX" id="fLZ-w8-DB4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="DPm-im-Lhb"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yLc-ae-Tzi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1324" y="527"/>
+        </scene>
+        <!--Duty View Controller-->
+        <scene sceneID="RVt-i4-kdl">
+            <objects>
+                <viewController id="iTa-Cx-lgu" customClass="DutyViewController" customModule="Floor_Meeting" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="czZ-CF-mLp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Duty Handbook" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="39o-XF-zqg">
+                                <rect key="frame" x="41" y="45" width="293" height="83"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="39o-XF-zqg" firstAttribute="top" secondItem="uon-ms-jN5" secondAttribute="top" constant="25" id="7Mu-65-shd"/>
+                            <constraint firstItem="39o-XF-zqg" firstAttribute="centerX" secondItem="czZ-CF-mLp" secondAttribute="centerX" id="CyN-ks-j9Q"/>
+                            <constraint firstItem="uon-ms-jN5" firstAttribute="bottom" secondItem="39o-XF-zqg" secondAttribute="bottom" constant="539" id="L8j-S1-OjG"/>
+                            <constraint firstItem="39o-XF-zqg" firstAttribute="leading" secondItem="uon-ms-jN5" secondAttribute="leading" constant="41" id="uQ9-kK-T5L"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="uon-ms-jN5"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oKG-QV-wYm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1324" y="-251"/>
+        </scene>
+        <!--Plan Duty View Controller-->
+        <scene sceneID="fSm-lS-nj1">
+            <objects>
+                <viewController id="Dke-8u-9DQ" customClass="PlanDutyViewController" customModule="Floor_Meeting" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7jf-wT-ME0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Plan Duty" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d6f-R2-BHJ">
+                                <rect key="frame" x="16" y="57" width="248" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Roboto-Thin" family="Roboto" pointSize="55"/>
+                                <color key="textColor" red="0.1492348909" green="0.32420051100000002" blue="0.48362451789999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jja-Lf-W5s">
+                                <rect key="frame" x="287" y="36" width="72" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.86227822303771973" green="0.23976734280586243" blue="0.24127328395843506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Roboto-Light" family="Roboto" pointSize="17"/>
+                                <state key="normal" title="EXIT">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="exitAction:" destination="Dke-8u-9DQ" eventType="touchUpInside" id="A6K-96-ERf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Duty planning session in progress" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3cc-qv-vrM">
+                                <rect key="frame" x="32" y="166" width="310" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.48678708076477051" green="0.77147537469863892" blue="0.46353590488433838" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Roboto-LightItalic" family="Roboto" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="hcb-Bc-gQs"/>
+                    </view>
+                    <connections>
+                        <outlet property="dutyPlanLabel" destination="3cc-qv-vrM" id="cIU-yg-gtr"/>
+                        <outlet property="exitButton" destination="Jja-Lf-W5s" id="4Ni-LV-x2t"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lwy-1K-emx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="605.60000000000002" y="-251.42428785607197"/>
         </scene>
         <!--Duty Nav-->
         <scene sceneID="M1O-km-kkS">

@@ -24,6 +24,23 @@
 		4629E6B6202C00C600915D33 /* EventsNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4629E6B5202C00C600915D33 /* EventsNav.swift */; };
 		4629E6B8202C00D400915D33 /* ResidentsNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4629E6B7202C00D400915D33 /* ResidentsNav.swift */; };
 		4629E6BA202C00E700915D33 /* DutyNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4629E6B9202C00E700915D33 /* DutyNav.swift */; };
+		46BB902D202D461000FFD55B /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46BB9023202D3E2C00FFD55B /* Roboto-Black.ttf */; };
+		46BB902E202D461000FFD55B /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46BB9026202D3E2D00FFD55B /* Roboto-BlackItalic.ttf */; };
+		46BB902F202D461000FFD55B /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46BB901E202D3E2A00FFD55B /* Roboto-Bold.ttf */; };
+		46BB9030202D461000FFD55B /* Roboto-BoldCondensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46BB9024202D3E2C00FFD55B /* Roboto-BoldCondensed.ttf */; };
+		46BB9031202D461000FFD55B /* Roboto-BoldCondensedItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46BB9025202D3E2D00FFD55B /* Roboto-BoldCondensedItalic.ttf */; };
+		46BB9032202D461000FFD55B /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46BB9027202D3E2E00FFD55B /* Roboto-BoldItalic.ttf */; };
+		46BB9033202D461000FFD55B /* Roboto-Condensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46BB901F202D3E2A00FFD55B /* Roboto-Condensed.ttf */; };
+		46BB9034202D461000FFD55B /* Roboto-CondensedItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46BB9022202D3E2B00FFD55B /* Roboto-CondensedItalic.ttf */; };
+		46BB9035202D461000FFD55B /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46BB902A202D3E2F00FFD55B /* Roboto-Italic.ttf */; };
+		46BB9036202D461000FFD55B /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46BB901D202D3E2900FFD55B /* Roboto-Light.ttf */; };
+		46BB9037202D461000FFD55B /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46BB9028202D3E2E00FFD55B /* Roboto-LightItalic.ttf */; };
+		46BB9038202D461000FFD55B /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46BB902B202D3E2F00FFD55B /* Roboto-Medium.ttf */; };
+		46BB9039202D461000FFD55B /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46BB9021202D3E2B00FFD55B /* Roboto-MediumItalic.ttf */; };
+		46BB903A202D461000FFD55B /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46BB9029202D3E2F00FFD55B /* Roboto-Regular.ttf */; };
+		46BB903B202D461000FFD55B /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46BB9020202D3E2B00FFD55B /* Roboto-Thin.ttf */; };
+		46BB903C202D461000FFD55B /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46BB902C202D3E3000FFD55B /* Roboto-ThinItalic.ttf */; };
+		46BB903E202D4DC000FFD55B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46BB903D202D4DC000FFD55B /* GoogleService-Info.plist */; };
 		46D0519D202568730077A39B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D0519C202568730077A39B /* AppDelegate.swift */; };
 		46D0519F202568730077A39B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D0519E202568730077A39B /* ViewController.swift */; };
 		46D051A2202568730077A39B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D051A0202568730077A39B /* Main.storyboard */; };
@@ -32,6 +49,10 @@
 		46D051B2202568730077A39B /* Floor_MeetingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D051B1202568730077A39B /* Floor_MeetingTests.swift */; };
 		46D051BD202568730077A39B /* Floor_MeetingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D051BC202568730077A39B /* Floor_MeetingUITests.swift */; };
 		46D051CB20258D830077A39B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D051CA20258D830077A39B /* LoginViewController.swift */; };
+		46F63F5D202C138100DBE28A /* PlanDutyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F63F5C202C138100DBE28A /* PlanDutyViewController.swift */; };
+		543A676260392CAC1B57F3A1 /* Pods_Floor_Meeting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA0D09E999CB1834CDE9195 /* Pods_Floor_Meeting.framework */; };
+		7CCBDBEEE9E2EA084201026F /* Pods_Floor_MeetingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8549F2CBC67040EA10F0F934 /* Pods_Floor_MeetingTests.framework */; };
+		F613BE5F78F0D4B16CE4008F /* Pods_Floor_MeetingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE64D2E75271FB842566C501 /* Pods_Floor_MeetingUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +73,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B5135D944221C045E2EABC8 /* Pods-Floor Meeting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Floor Meeting.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Floor Meeting/Pods-Floor Meeting.debug.xcconfig"; sourceTree = "<group>"; };
+		1BA0D09E999CB1834CDE9195 /* Pods_Floor_Meeting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Floor_Meeting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4565E850C10FF88C6BB91AC3 /* Pods-Floor Meeting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Floor Meeting.release.xcconfig"; path = "Pods/Target Support Files/Pods-Floor Meeting/Pods-Floor Meeting.release.xcconfig"; sourceTree = "<group>"; };
 		460060032028C1EA0086F0D6 /* Residents.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Residents.storyboard; sourceTree = "<group>"; };
 		460060052028C1FC0086F0D6 /* Events.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Events.storyboard; sourceTree = "<group>"; };
 		460060072028C20D0086F0D6 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
@@ -69,6 +93,23 @@
 		4629E6B5202C00C600915D33 /* EventsNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsNav.swift; sourceTree = "<group>"; };
 		4629E6B7202C00D400915D33 /* ResidentsNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResidentsNav.swift; sourceTree = "<group>"; };
 		4629E6B9202C00E700915D33 /* DutyNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutyNav.swift; sourceTree = "<group>"; };
+		46BB901D202D3E2900FFD55B /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		46BB901E202D3E2A00FFD55B /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		46BB901F202D3E2A00FFD55B /* Roboto-Condensed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Condensed.ttf"; sourceTree = "<group>"; };
+		46BB9020202D3E2B00FFD55B /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		46BB9021202D3E2B00FFD55B /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		46BB9022202D3E2B00FFD55B /* Roboto-CondensedItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-CondensedItalic.ttf"; sourceTree = "<group>"; };
+		46BB9023202D3E2C00FFD55B /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		46BB9024202D3E2C00FFD55B /* Roboto-BoldCondensed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldCondensed.ttf"; sourceTree = "<group>"; };
+		46BB9025202D3E2D00FFD55B /* Roboto-BoldCondensedItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldCondensedItalic.ttf"; sourceTree = "<group>"; };
+		46BB9026202D3E2D00FFD55B /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		46BB9027202D3E2E00FFD55B /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		46BB9028202D3E2E00FFD55B /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		46BB9029202D3E2F00FFD55B /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		46BB902A202D3E2F00FFD55B /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		46BB902B202D3E2F00FFD55B /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		46BB902C202D3E3000FFD55B /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		46BB903D202D4DC000FFD55B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		46D05199202568730077A39B /* Floor Meeting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Floor Meeting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46D0519C202568730077A39B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46D0519E202568730077A39B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +124,13 @@
 		46D051BC202568730077A39B /* Floor_MeetingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Floor_MeetingUITests.swift; sourceTree = "<group>"; };
 		46D051BE202568730077A39B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46D051CA20258D830077A39B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		46F63F5C202C138100DBE28A /* PlanDutyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanDutyViewController.swift; sourceTree = "<group>"; };
+		50B81A0B9777B0E70C5F2C8B /* Pods-Floor MeetingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Floor MeetingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Floor MeetingUITests/Pods-Floor MeetingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8549F2CBC67040EA10F0F934 /* Pods_Floor_MeetingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Floor_MeetingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE64D2E75271FB842566C501 /* Pods_Floor_MeetingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Floor_MeetingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8C58FD2317386609B4F0EA7 /* Pods-Floor MeetingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Floor MeetingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Floor MeetingTests/Pods-Floor MeetingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F39B346561445BBA6C8E7550 /* Pods-Floor MeetingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Floor MeetingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Floor MeetingUITests/Pods-Floor MeetingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F93D0DC9254A1FDFD145BE1E /* Pods-Floor MeetingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Floor MeetingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Floor MeetingTests/Pods-Floor MeetingTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				543A676260392CAC1B57F3A1 /* Pods_Floor_Meeting.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CCBDBEEE9E2EA084201026F /* Pods_Floor_MeetingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F613BE5F78F0D4B16CE4008F /* Pods_Floor_MeetingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +167,7 @@
 				4629E6AF202BF85900915D33 /* Duty.storyboard */,
 				4600600D2028E5F00086F0D6 /* DutyViewController.swift */,
 				4629E6B9202C00E700915D33 /* DutyNav.swift */,
+				46F63F5C202C138100DBE28A /* PlanDutyViewController.swift */,
 			);
 			path = Duty;
 			sourceTree = "<group>";
@@ -170,6 +222,29 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		46BB901C202D3E2900FFD55B /* Roboto Font */ = {
+			isa = PBXGroup;
+			children = (
+				46BB9023202D3E2C00FFD55B /* Roboto-Black.ttf */,
+				46BB9026202D3E2D00FFD55B /* Roboto-BlackItalic.ttf */,
+				46BB901E202D3E2A00FFD55B /* Roboto-Bold.ttf */,
+				46BB9024202D3E2C00FFD55B /* Roboto-BoldCondensed.ttf */,
+				46BB9025202D3E2D00FFD55B /* Roboto-BoldCondensedItalic.ttf */,
+				46BB9027202D3E2E00FFD55B /* Roboto-BoldItalic.ttf */,
+				46BB901F202D3E2A00FFD55B /* Roboto-Condensed.ttf */,
+				46BB9022202D3E2B00FFD55B /* Roboto-CondensedItalic.ttf */,
+				46BB902A202D3E2F00FFD55B /* Roboto-Italic.ttf */,
+				46BB901D202D3E2900FFD55B /* Roboto-Light.ttf */,
+				46BB9028202D3E2E00FFD55B /* Roboto-LightItalic.ttf */,
+				46BB902B202D3E2F00FFD55B /* Roboto-Medium.ttf */,
+				46BB9021202D3E2B00FFD55B /* Roboto-MediumItalic.ttf */,
+				46BB9029202D3E2F00FFD55B /* Roboto-Regular.ttf */,
+				46BB9020202D3E2B00FFD55B /* Roboto-Thin.ttf */,
+				46BB902C202D3E3000FFD55B /* Roboto-ThinItalic.ttf */,
+			);
+			path = "Roboto Font";
+			sourceTree = "<group>";
+		};
 		46D05190202568730077A39B = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +252,8 @@
 				46D051B0202568730077A39B /* Floor MeetingTests */,
 				46D051BB202568730077A39B /* Floor MeetingUITests */,
 				46D0519A202568730077A39B /* Products */,
+				56FC403E9D8EBFF4318298C7 /* Pods */,
+				C7BFBABF56DD4234DF2E58B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -200,6 +277,8 @@
 				46D051A3202568730077A39B /* Assets.xcassets */,
 				46D051A5202568730077A39B /* LaunchScreen.storyboard */,
 				46D051A8202568730077A39B /* Info.plist */,
+				46BB903D202D4DC000FFD55B /* GoogleService-Info.plist */,
+				46BB901C202D3E2900FFD55B /* Roboto Font */,
 				460060172028E64A0086F0D6 /* Duty */,
 				460060182028E65E0086F0D6 /* Residents */,
 				460060192028E66B0086F0D6 /* Events */,
@@ -227,6 +306,29 @@
 			path = "Floor MeetingUITests";
 			sourceTree = "<group>";
 		};
+		56FC403E9D8EBFF4318298C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B5135D944221C045E2EABC8 /* Pods-Floor Meeting.debug.xcconfig */,
+				4565E850C10FF88C6BB91AC3 /* Pods-Floor Meeting.release.xcconfig */,
+				C8C58FD2317386609B4F0EA7 /* Pods-Floor MeetingTests.debug.xcconfig */,
+				F93D0DC9254A1FDFD145BE1E /* Pods-Floor MeetingTests.release.xcconfig */,
+				F39B346561445BBA6C8E7550 /* Pods-Floor MeetingUITests.debug.xcconfig */,
+				50B81A0B9777B0E70C5F2C8B /* Pods-Floor MeetingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C7BFBABF56DD4234DF2E58B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BA0D09E999CB1834CDE9195 /* Pods_Floor_Meeting.framework */,
+				8549F2CBC67040EA10F0F934 /* Pods_Floor_MeetingTests.framework */,
+				AE64D2E75271FB842566C501 /* Pods_Floor_MeetingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -234,9 +336,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46D051C1202568730077A39B /* Build configuration list for PBXNativeTarget "Floor Meeting" */;
 			buildPhases = (
+				E00E7B3DC6105A4A8808432E /* [CP] Check Pods Manifest.lock */,
 				46D05195202568730077A39B /* Sources */,
 				46D05196202568730077A39B /* Frameworks */,
 				46D05197202568730077A39B /* Resources */,
+				6F64BBB594636320366D5A99 /* [CP] Embed Pods Frameworks */,
+				72C510D7A4F391202A39B3CA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,9 +356,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46D051C4202568730077A39B /* Build configuration list for PBXNativeTarget "Floor MeetingTests" */;
 			buildPhases = (
+				3ACF370E47DF59A74A526F2E /* [CP] Check Pods Manifest.lock */,
 				46D051A9202568730077A39B /* Sources */,
 				46D051AA202568730077A39B /* Frameworks */,
 				46D051AB202568730077A39B /* Resources */,
+				E7E3561C5F97FA8F2C609E45 /* [CP] Embed Pods Frameworks */,
+				ED22AA7EFBC4F064E926CE52 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,9 +377,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46D051C7202568730077A39B /* Build configuration list for PBXNativeTarget "Floor MeetingUITests" */;
 			buildPhases = (
+				3F2CC585F908700A3B39E7A6 /* [CP] Check Pods Manifest.lock */,
 				46D051B4202568730077A39B /* Sources */,
 				46D051B5202568730077A39B /* Frameworks */,
 				46D051B6202568730077A39B /* Resources */,
+				1D84CDB3AD5FD524126EBAD5 /* [CP] Embed Pods Frameworks */,
+				EBA70804DE86BC9051932D4B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -334,6 +445,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46BB902D202D461000FFD55B /* Roboto-Black.ttf in Resources */,
+				46BB902E202D461000FFD55B /* Roboto-BlackItalic.ttf in Resources */,
+				46BB903E202D4DC000FFD55B /* GoogleService-Info.plist in Resources */,
+				46BB902F202D461000FFD55B /* Roboto-Bold.ttf in Resources */,
+				46BB9030202D461000FFD55B /* Roboto-BoldCondensed.ttf in Resources */,
+				46BB9031202D461000FFD55B /* Roboto-BoldCondensedItalic.ttf in Resources */,
+				46BB9032202D461000FFD55B /* Roboto-BoldItalic.ttf in Resources */,
+				46BB9033202D461000FFD55B /* Roboto-Condensed.ttf in Resources */,
+				46BB9034202D461000FFD55B /* Roboto-CondensedItalic.ttf in Resources */,
+				46BB9035202D461000FFD55B /* Roboto-Italic.ttf in Resources */,
+				46BB9036202D461000FFD55B /* Roboto-Light.ttf in Resources */,
+				46BB9037202D461000FFD55B /* Roboto-LightItalic.ttf in Resources */,
+				46BB9038202D461000FFD55B /* Roboto-Medium.ttf in Resources */,
+				46BB9039202D461000FFD55B /* Roboto-MediumItalic.ttf in Resources */,
+				46BB903A202D461000FFD55B /* Roboto-Regular.ttf in Resources */,
+				46BB903B202D461000FFD55B /* Roboto-Thin.ttf in Resources */,
+				46BB903C202D461000FFD55B /* Roboto-ThinItalic.ttf in Resources */,
 				460060042028C1EA0086F0D6 /* Residents.storyboard in Resources */,
 				46D051A7202568730077A39B /* LaunchScreen.storyboard in Resources */,
 				46D051A4202568730077A39B /* Assets.xcassets in Resources */,
@@ -361,6 +489,160 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D84CDB3AD5FD524126EBAD5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Floor MeetingUITests/Pods-Floor MeetingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3ACF370E47DF59A74A526F2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Floor MeetingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F2CC585F908700A3B39E7A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Floor MeetingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F64BBB594636320366D5A99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Floor Meeting/Pods-Floor Meeting-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Floor Meeting/Pods-Floor Meeting-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72C510D7A4F391202A39B3CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Floor Meeting/Pods-Floor Meeting-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E00E7B3DC6105A4A8808432E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Floor Meeting-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7E3561C5F97FA8F2C609E45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Floor MeetingTests/Pods-Floor MeetingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBA70804DE86BC9051932D4B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Floor MeetingUITests/Pods-Floor MeetingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED22AA7EFBC4F064E926CE52 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Floor MeetingTests/Pods-Floor MeetingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		46D05195202568730077A39B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -373,6 +655,7 @@
 				4629E6B8202C00D400915D33 /* ResidentsNav.swift in Sources */,
 				4600600C2028DD3E0086F0D6 /* tabBarViewController.swift in Sources */,
 				46D051CB20258D830077A39B /* LoginViewController.swift in Sources */,
+				46F63F5D202C138100DBE28A /* PlanDutyViewController.swift in Sources */,
 				4629E6B2202BFF9700915D33 /* TrainingNav.swift in Sources */,
 				460060102028E6180086F0D6 /* ResidentsViewController.swift in Sources */,
 				46D0519F202568730077A39B /* ViewController.swift in Sources */,
@@ -544,6 +827,7 @@
 		};
 		46D051C2202568730077A39B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B5135D944221C045E2EABC8 /* Pods-Floor Meeting.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -559,6 +843,7 @@
 		};
 		46D051C3202568730077A39B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4565E850C10FF88C6BB91AC3 /* Pods-Floor Meeting.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -574,6 +859,7 @@
 		};
 		46D051C5202568730077A39B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8C58FD2317386609B4F0EA7 /* Pods-Floor MeetingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -591,6 +877,7 @@
 		};
 		46D051C6202568730077A39B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F93D0DC9254A1FDFD145BE1E /* Pods-Floor MeetingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -608,6 +895,7 @@
 		};
 		46D051C8202568730077A39B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F39B346561445BBA6C8E7550 /* Pods-Floor MeetingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -624,6 +912,7 @@
 		};
 		46D051C9202568730077A39B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50B81A0B9777B0E70C5F2C8B /* Pods-Floor MeetingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
