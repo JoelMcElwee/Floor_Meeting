@@ -1,0 +1,6 @@
+framework module Pods_Floor_MeetingTests {
+  umbrella header "Pods-Floor MeetingTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

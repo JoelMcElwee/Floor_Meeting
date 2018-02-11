@@ -24,6 +24,7 @@
 		4629E6B6202C00C600915D33 /* EventsNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4629E6B5202C00C600915D33 /* EventsNav.swift */; };
 		4629E6B8202C00D400915D33 /* ResidentsNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4629E6B7202C00D400915D33 /* ResidentsNav.swift */; };
 		4629E6BA202C00E700915D33 /* DutyNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4629E6B9202C00E700915D33 /* DutyNav.swift */; };
+		467C330A202E48D900B644ED /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467C3309202E48D900B644ED /* Colors.swift */; };
 		46BB902D202D461000FFD55B /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46BB9023202D3E2C00FFD55B /* Roboto-Black.ttf */; };
 		46BB902E202D461000FFD55B /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46BB9026202D3E2D00FFD55B /* Roboto-BlackItalic.ttf */; };
 		46BB902F202D461000FFD55B /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46BB901E202D3E2A00FFD55B /* Roboto-Bold.ttf */; };
@@ -93,6 +94,7 @@
 		4629E6B5202C00C600915D33 /* EventsNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsNav.swift; sourceTree = "<group>"; };
 		4629E6B7202C00D400915D33 /* ResidentsNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResidentsNav.swift; sourceTree = "<group>"; };
 		4629E6B9202C00E700915D33 /* DutyNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutyNav.swift; sourceTree = "<group>"; };
+		467C3309202E48D900B644ED /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		46BB901D202D3E2900FFD55B /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
 		46BB901E202D3E2A00FFD55B /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		46BB901F202D3E2A00FFD55B /* Roboto-Condensed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Condensed.ttf"; sourceTree = "<group>"; };
@@ -284,6 +286,7 @@
 				460060192028E66B0086F0D6 /* Events */,
 				4600601A2028E6750086F0D6 /* Profile */,
 				4600601B2028E67E0086F0D6 /* Training */,
+				467C3309202E48D900B644ED /* Colors.swift */,
 			);
 			path = "Floor Meeting";
 			sourceTree = "<group>";
@@ -651,6 +654,7 @@
 				4629E6BA202C00E700915D33 /* DutyNav.swift in Sources */,
 				4600601E202A29200086F0D6 /* AppStoryboard.swift in Sources */,
 				4629E6B6202C00C600915D33 /* EventsNav.swift in Sources */,
+				467C330A202E48D900B644ED /* Colors.swift in Sources */,
 				460060162028E6380086F0D6 /* TrainingViewController.swift in Sources */,
 				4629E6B8202C00D400915D33 /* ResidentsNav.swift in Sources */,
 				4600600C2028DD3E0086F0D6 /* tabBarViewController.swift in Sources */,
