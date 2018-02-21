@@ -7,9 +7,13 @@
 //
 
 import UIKit
+import Firebase
 
 class ProfileViewController: UIViewController {
+    
+    let rootRef = Database.database().reference()
 
+    @IBOutlet weak var nameLabel: UILabel!
     @IBAction func logoutAction(_ sender: Any) {
         
         let alert = UIAlertController(title: "Are you sure you would like to logout?", message: "You'll lose you're place!!!!", preferredStyle: .alert)
@@ -27,6 +31,12 @@ class ProfileViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let nameRef = rootRef.child("userFirstName")
+        nameRef.observe(.value) { (snap: DataSnapshot) in
+            self.nameLabel.text = snap.value as? String
+        }
+        
 
         // Do any additional setup after loading the view.
     }

@@ -6,6 +6,7 @@ target 'Floor Meeting' do
   use_frameworks!
 
   # Pods for Floor Meeting
+    pod 'Firebase'
 	pod 'Firebase/Core'
 	pod 'Firebase/Database'
 

@@ -1,4 +1,6 @@
 PODS:
+  - Firebase (4.8.2):
+    - Firebase/Core (= 4.8.2)
   - Firebase/Core (4.8.2):
     - FirebaseAnalytics (= 4.0.9)
     - FirebaseCore (= 4.0.14)
@@ -29,6 +31,7 @@ PODS:
   - nanopb/encode (0.3.8)
 
 DEPENDENCIES:
+  - Firebase
   - Firebase/Core
   - Firebase/Database
 
@@ -42,6 +45,6 @@ SPEC CHECKSUMS:
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
 
-PODFILE CHECKSUM: d84880bf1e5c7e0ec5374fe907e196030d0eb092
+PODFILE CHECKSUM: 5a6e1459aa28c4628f5e261f76e18fd4ca696b5a
 
 COCOAPODS: 1.4.0

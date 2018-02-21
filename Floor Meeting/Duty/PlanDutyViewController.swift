@@ -19,7 +19,6 @@ class PlanDutyViewController: UIViewController {
     @IBOutlet weak var dutyPlanLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        exitButton.layer.cornerRadius = 12
         dutyPlanLabel.layer.masksToBounds = true
         dutyPlanLabel.layer.cornerRadius = 24
         

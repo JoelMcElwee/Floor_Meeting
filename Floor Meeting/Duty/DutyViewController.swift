@@ -12,32 +12,56 @@ import Firebase
 
 
 class DutyViewController: UIViewController {
+    
+    let rootRef = Database.database().reference()
 
-    @IBOutlet weak var startRoundButton: UIButton!
+    @IBAction func dismissButton(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+    @IBOutlet weak var wygLabel: UILabel!
+    @IBOutlet weak var clmLabel: UILabel!
+    @IBOutlet weak var acdLabel: UILabel!
+    @IBOutlet weak var onDutyView: UIView!
+    @IBOutlet weak var navBarTitle: UINavigationItem!
+    @IBOutlet weak var onDutyLabel: UILabel!
     @IBOutlet weak var logButton: UIButton!
     @IBOutlet weak var swapButton: UIButton!
     @IBOutlet weak var planButton: UIButton!
-    @IBOutlet weak var handbookButton: UIButton!
     @IBOutlet weak var emergencyButton: UIButton!
     @IBOutlet weak var dropDownIcon: UIButton!
     @IBOutlet weak var onDutyTodayView: UIView!
     
-    let dropView = UIView()
+    
+    
     
     var dropState = 0
     
     @IBAction func dropDown(_ sender: Any) {
+        let labelArr = [acdLabel, clmLabel, wygLabel]
+        
         if dropState == 0{
             UIView.animate(withDuration: 0.5) { () -> Void in
                 self.dropDownIcon.transform = CGAffineTransform(rotationAngle: CGFloat.pi)
-                self.dropView.frame.size.height = 600
+                
+                self.onDutyView.isHidden = false
+                self.onDutyView.frame.size.height = 600
+                for l in labelArr {
+                    l?.isHidden = false
+                }
+
+                
+                
             }
             dropState = 1
         }
         else {
             UIView.animate(withDuration: 0.5) { () -> Void in
                 self.dropDownIcon.transform = CGAffineTransform(rotationAngle: (CGFloat.pi * 2.0))
-                self.dropView.frame.size.height = 0
+                self.onDutyView.frame.size.height = 0
+                for l in labelArr {
+                    l?.isHidden = true
+                }
             }
             dropState = 0
             
@@ -47,7 +71,20 @@ class DutyViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let buttons = [startRoundButton,logButton,swapButton,planButton,handbookButton,emergencyButton]
+        
+        let onDutyRef = rootRef.child("onDuty")
+        onDutyRef.observe(.value) { (snap: DataSnapshot) in
+            self.onDutyLabel?.text = snap.value as? String
+        }
+        
+        let buttons = [logButton,swapButton,planButton,emergencyButton]
+        let labelArr = [acdLabel, clmLabel, wygLabel]
+        
+        
+        
+        for l in labelArr {
+            l?.isHidden = true
+        }
         
         for b in buttons {
             b?.layer.cornerRadius = 12
@@ -55,19 +92,14 @@ class DutyViewController: UIViewController {
             b?.titleLabel?.textAlignment = NSTextAlignment.center
         }
         
-        startRoundButton?.setTitle("START\nROUND", for: .normal)
         logButton?.setTitle("LOG", for: .normal)
         swapButton?.setTitle("SWAP", for: .normal)
         planButton?.setTitle("PLAN", for: .normal)
-        handbookButton?.setTitle("HANDBOOK", for: .normal)
         emergencyButton?.setTitle("EMERGENCY\nCONTACT", for: .normal)
         
         //Dropview initialization
-        
-        dropView.frame = CGRect(x: 0, y: onDutyTodayView.frame.origin.y + onDutyTodayView.frame.size.height, width: 375, height: 20)
-        self.view.addSubview(dropView)
-        dropView.backgroundColor = UIColor.landon()
-        
+//        self.view.addSubview(self.dropView)
+//        self.dropView.backgroundColor = UIColor.landon()
         
     }
 
