@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import FirebaseAuth
 
 class ProfileViewController: UIViewController {
     
@@ -19,7 +20,8 @@ class ProfileViewController: UIViewController {
         let alert = UIAlertController(title: "Are you sure you would like to logout?", message: "You'll lose you're place!!!!", preferredStyle: .alert)
         
         alert.addAction(UIAlertAction(title: "Yes", style: .default, handler: { action in
-            self.dismiss(animated: true, completion: nil)
+            self.logout()
+            
         }))
         
         alert.addAction(UIAlertAction(title: "No", style: .cancel, handler: nil))
@@ -31,15 +33,42 @@ class ProfileViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        checkIfUserIsLoggedIn()
         
-        let nameRef = rootRef.child("userFirstName")
-        nameRef.observe(.value) { (snap: DataSnapshot) in
-            self.nameLabel.text = snap.value as? String
+        
+    }
+    
+    func checkIfUserIsLoggedIn() {
+        if Auth.auth().currentUser?.uid == nil {
+            logout()
+        }
+        else {
+            let uid = Auth.auth().currentUser?.uid
+            let nameRef = rootRef.child("users").child(uid!)
+            nameRef.observeSingleEvent(of: .value, with: { (snapshot) in
+                if let dictionary = snapshot.value as? [String: AnyObject] {
+                    self.navigationItem.title = dictionary["name"] as? String
+                }
+                else {
+                    print("error")
+                }
+            }, withCancel: nil)
         }
         
-
-        // Do any additional setup after loading the view.
+        
     }
+    
+    func logout() {
+        do {
+            try Auth.auth().signOut()
+            self.dismiss(animated: true, completion: nil)
+        }
+        catch let logoutError {
+            print(logoutError)
+        }
+    }
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -47,14 +76,6 @@ class ProfileViewController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    
 
 }

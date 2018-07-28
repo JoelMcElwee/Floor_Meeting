@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Condensed.ttf">
+            <string>Roboto-Condensed</string>
+        </array>
+        <array key="Roboto-Light.ttf">
+            <string>Roboto-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MessageDetailCell" customModule="Floor_Meeting" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mY0-TX-aLu">
+                    <rect key="frame" x="362" y="0.0" width="13" height="90"/>
+                    <color key="backgroundColor" red="0.99920433760000005" green="0.82185375689999995" blue="0.39877569680000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="13" id="efc-30-paO"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Q2Q-IA-gBs">
+                    <rect key="frame" x="16" y="19" width="52" height="52"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="52" id="t21-TB-X2n"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JOEL MCELWEE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ku-2J-mgD">
+                    <rect key="frame" x="76" y="13" width="278" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="hd5-4L-EVc"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Roboto-Condensed" family="Roboto" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ViF-c2-taW">
+                    <rect key="frame" x="76" y="36" width="278" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="3Qb-aY-ib5"/>
+                    </constraints>
+                    <string key="text">Hey, so how are we gonna plan this event?Isn’t it slotted for next wednesday? Have we submitted a funds request yet?</string>
+                    <fontDescription key="fontDescription" name="Roboto-Light" family="Roboto" pointSize="10"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="mY0-TX-aLu" firstAttribute="leading" secondItem="0ku-2J-mgD" secondAttribute="trailing" constant="8" id="2Qo-XE-qkZ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="ViF-c2-taW" secondAttribute="bottom" constant="12" id="AIp-8v-2so"/>
+                <constraint firstItem="Q2Q-IA-gBs" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="19" id="DXd-m3-mpu"/>
+                <constraint firstItem="mY0-TX-aLu" firstAttribute="leading" secondItem="ViF-c2-taW" secondAttribute="trailing" constant="8" id="L68-8r-K1Z"/>
+                <constraint firstItem="mY0-TX-aLu" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="Loe-ZT-bkp"/>
+                <constraint firstItem="0ku-2J-mgD" firstAttribute="leading" secondItem="Q2Q-IA-gBs" secondAttribute="trailing" constant="8" id="QHG-KZ-M0R"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Q2Q-IA-gBs" secondAttribute="bottom" constant="19" id="ZEH-EF-QgT"/>
+                <constraint firstItem="mY0-TX-aLu" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="ao3-OZ-BKf"/>
+                <constraint firstItem="0ku-2J-mgD" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="13" id="awj-0C-qpe"/>
+                <constraint firstItem="Q2Q-IA-gBs" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="j66-mp-h83"/>
+                <constraint firstItem="ViF-c2-taW" firstAttribute="leading" secondItem="Q2Q-IA-gBs" secondAttribute="trailing" constant="8" id="sLr-ld-KTs"/>
+                <constraint firstItem="mY0-TX-aLu" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="ubT-zp-PNr"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="chatPreview" destination="ViF-c2-taW" id="j1D-Bl-IR3"/>
+                <outlet property="recipientImg" destination="Q2Q-IA-gBs" id="SMa-c3-QYl"/>
+                <outlet property="recipientName" destination="0ku-2J-mgD" id="hRR-9i-96G"/>
+                <outlet property="userColorView" destination="mY0-TX-aLu" id="Chp-KW-hUe"/>
+            </connections>
+            <point key="canvasLocation" x="-65.5" y="-166"/>
+        </view>
+    </objects>
+</document>

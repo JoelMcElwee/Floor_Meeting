@@ -19,14 +19,20 @@ class tabBarViewController: UITabBarController {
         let eventsVC = EventsNav.storyboardInstance()
         let trainVC = TrainingNav.storyboardInstance()
         let profVC = ProfileNav.storyboardInstance()
+        let messVC = MessagesNav.storyboardInstance()
 
-        let controllers = [dutyVC,resVC,profVC,eventsVC,trainVC]
+        let controllers = [dutyVC,resVC,profVC,eventsVC,messVC]
+        
         dutyVC?.tabBarItem.image = #imageLiteral(resourceName: "Duty Icon")
         dutyVC?.tabBarItem.selectedImage = #imageLiteral(resourceName: "Duty Icon").withRenderingMode(.alwaysOriginal)
         dutyVC?.tabBarItem.setTitleTextAttributes([NSAttributedStringKey.foregroundColor: UIColor.campbell()], for: .selected)
         
-        trainVC?.tabBarItem.selectedImage = #imageLiteral(resourceName: "Training Icon").withRenderingMode(.alwaysOriginal)
-        trainVC?.tabBarItem.setTitleTextAttributes([NSAttributedStringKey.foregroundColor: UIColor.mayo()], for: .selected)
+//        trainVC?.tabBarItem.selectedImage = #imageLiteral(resourceName: "Training Icon").withRenderingMode(.alwaysOriginal)
+//        trainVC?.tabBarItem.setTitleTextAttributes([NSAttributedStringKey.foregroundColor: UIColor.mayo()], for: .selected)
+        
+        messVC?.tabBarItem.image = #imageLiteral(resourceName: "Message Icon")
+        messVC?.tabBarItem.selectedImage = #imageLiteral(resourceName: "Message Icon").withRenderingMode(.alwaysOriginal)
+        messVC?.tabBarItem.setTitleTextAttributes([NSAttributedStringKey.foregroundColor: UIColor.mayo()], for: .selected)
         
         profVC?.tabBarItem.selectedImage = #imageLiteral(resourceName: "green Profile Icon").withRenderingMode(.alwaysOriginal)
         profVC?.tabBarItem.setTitleTextAttributes([NSAttributedStringKey.foregroundColor: UIColor.gilchrist()], for: .selected)

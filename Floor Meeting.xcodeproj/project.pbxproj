@@ -24,7 +24,13 @@
 		4629E6B6202C00C600915D33 /* EventsNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4629E6B5202C00C600915D33 /* EventsNav.swift */; };
 		4629E6B8202C00D400915D33 /* ResidentsNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4629E6B7202C00D400915D33 /* ResidentsNav.swift */; };
 		4629E6BA202C00E700915D33 /* DutyNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4629E6B9202C00E700915D33 /* DutyNav.swift */; };
+		466B1179210A625D00414C46 /* MessagesDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 466B1178210A625D00414C46 /* MessagesDetailCell.xib */; };
 		467C330A202E48D900B644ED /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467C3309202E48D900B644ED /* Colors.swift */; };
+		469E7BFB20A3720C00337511 /* Messages.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 469E7BFA20A3720C00337511 /* Messages.storyboard */; };
+		469E7BFD20A3723F00337511 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469E7BFC20A3723F00337511 /* MessagesViewController.swift */; };
+		469E7BFF20A373AB00337511 /* MessagesNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469E7BFE20A373AB00337511 /* MessagesNav.swift */; };
+		46A1935620B4A2E300E9ABA2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A1935520B4A2E300E9ABA2 /* User.swift */; };
+		46A1935820B5B4A800E9ABA2 /* UploadPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A1935720B5B4A800E9ABA2 /* UploadPhotoViewController.swift */; };
 		46BB902D202D461000FFD55B /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46BB9023202D3E2C00FFD55B /* Roboto-Black.ttf */; };
 		46BB902E202D461000FFD55B /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46BB9026202D3E2D00FFD55B /* Roboto-BlackItalic.ttf */; };
 		46BB902F202D461000FFD55B /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46BB901E202D3E2A00FFD55B /* Roboto-Bold.ttf */; };
@@ -50,7 +56,17 @@
 		46D051B2202568730077A39B /* Floor_MeetingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D051B1202568730077A39B /* Floor_MeetingTests.swift */; };
 		46D051BD202568730077A39B /* Floor_MeetingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D051BC202568730077A39B /* Floor_MeetingUITests.swift */; };
 		46D051CB20258D830077A39B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D051CA20258D830077A39B /* LoginViewController.swift */; };
+		46E4940320BDB1AB005ED7DC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E4940220BDB1AB005ED7DC /* Extensions.swift */; };
 		46F63F5D202C138100DBE28A /* PlanDutyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F63F5C202C138100DBE28A /* PlanDutyViewController.swift */; };
+		46F6E57720A6664A00FB3C9A /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F6E57620A6664A00FB3C9A /* Message.swift */; };
+		46F6E57920A6697800FB3C9A /* MessageDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F6E57820A6697800FB3C9A /* MessageDetail.swift */; };
+		46F6E57B20A6732A00FB3C9A /* MessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F6E57A20A6732A00FB3C9A /* MessageVC.swift */; };
+		46F6E57D20A674C000FB3C9A /* MessagesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F6E57C20A674C000FB3C9A /* MessagesCell.swift */; };
+		46F6E57F20A674FF00FB3C9A /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F6E57E20A674FF00FB3C9A /* Search.swift */; };
+		46F6E58120A675CD00FB3C9A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F6E58020A675CD00FB3C9A /* SearchViewController.swift */; };
+		46F6E58320A6761C00FB3C9A /* MessageDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F6E58220A6761C00FB3C9A /* MessageDetailCell.swift */; };
+		46F6E58520A6770000FB3C9A /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F6E58420A6770000FB3C9A /* SearchCell.swift */; };
+		46F6E58720A793AD00FB3C9A /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F6E58620A793AD00FB3C9A /* CreateAccountViewController.swift */; };
 		543A676260392CAC1B57F3A1 /* Pods_Floor_Meeting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BA0D09E999CB1834CDE9195 /* Pods_Floor_Meeting.framework */; };
 		7CCBDBEEE9E2EA084201026F /* Pods_Floor_MeetingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8549F2CBC67040EA10F0F934 /* Pods_Floor_MeetingTests.framework */; };
 		F613BE5F78F0D4B16CE4008F /* Pods_Floor_MeetingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE64D2E75271FB842566C501 /* Pods_Floor_MeetingUITests.framework */; };
@@ -94,7 +110,13 @@
 		4629E6B5202C00C600915D33 /* EventsNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsNav.swift; sourceTree = "<group>"; };
 		4629E6B7202C00D400915D33 /* ResidentsNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResidentsNav.swift; sourceTree = "<group>"; };
 		4629E6B9202C00E700915D33 /* DutyNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutyNav.swift; sourceTree = "<group>"; };
+		466B1178210A625D00414C46 /* MessagesDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessagesDetailCell.xib; sourceTree = "<group>"; };
 		467C3309202E48D900B644ED /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		469E7BFA20A3720C00337511 /* Messages.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Messages.storyboard; sourceTree = "<group>"; };
+		469E7BFC20A3723F00337511 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		469E7BFE20A373AB00337511 /* MessagesNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesNav.swift; sourceTree = "<group>"; };
+		46A1935520B4A2E300E9ABA2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		46A1935720B5B4A800E9ABA2 /* UploadPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPhotoViewController.swift; sourceTree = "<group>"; };
 		46BB901D202D3E2900FFD55B /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
 		46BB901E202D3E2A00FFD55B /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		46BB901F202D3E2A00FFD55B /* Roboto-Condensed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Condensed.ttf"; sourceTree = "<group>"; };
@@ -126,7 +148,17 @@
 		46D051BC202568730077A39B /* Floor_MeetingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Floor_MeetingUITests.swift; sourceTree = "<group>"; };
 		46D051BE202568730077A39B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46D051CA20258D830077A39B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		46E4940220BDB1AB005ED7DC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		46F63F5C202C138100DBE28A /* PlanDutyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanDutyViewController.swift; sourceTree = "<group>"; };
+		46F6E57620A6664A00FB3C9A /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		46F6E57820A6697800FB3C9A /* MessageDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDetail.swift; sourceTree = "<group>"; };
+		46F6E57A20A6732A00FB3C9A /* MessageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageVC.swift; sourceTree = "<group>"; };
+		46F6E57C20A674C000FB3C9A /* MessagesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesCell.swift; sourceTree = "<group>"; };
+		46F6E57E20A674FF00FB3C9A /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		46F6E58020A675CD00FB3C9A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		46F6E58220A6761C00FB3C9A /* MessageDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDetailCell.swift; sourceTree = "<group>"; };
+		46F6E58420A6770000FB3C9A /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		46F6E58620A793AD00FB3C9A /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		50B81A0B9777B0E70C5F2C8B /* Pods-Floor MeetingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Floor MeetingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Floor MeetingUITests/Pods-Floor MeetingUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8549F2CBC67040EA10F0F934 /* Pods_Floor_MeetingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Floor_MeetingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE64D2E75271FB842566C501 /* Pods_Floor_MeetingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Floor_MeetingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -220,8 +252,39 @@
 				46D051A0202568730077A39B /* Main.storyboard */,
 				4600600B2028DD3E0086F0D6 /* tabBarViewController.swift */,
 				46D051CA20258D830077A39B /* LoginViewController.swift */,
+				46F6E58620A793AD00FB3C9A /* CreateAccountViewController.swift */,
+				46A1935720B5B4A800E9ABA2 /* UploadPhotoViewController.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		469E7BF920A371AF00337511 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				46E4940120BDB198005ED7DC /* Helpers */,
+				46A1935420B4A28C00E9ABA2 /* Model */,
+				469E7BFA20A3720C00337511 /* Messages.storyboard */,
+				469E7BFC20A3723F00337511 /* MessagesViewController.swift */,
+				469E7BFE20A373AB00337511 /* MessagesNav.swift */,
+				46F6E57620A6664A00FB3C9A /* Message.swift */,
+				46F6E57820A6697800FB3C9A /* MessageDetail.swift */,
+				46F6E57A20A6732A00FB3C9A /* MessageVC.swift */,
+				46F6E57C20A674C000FB3C9A /* MessagesCell.swift */,
+				46F6E57E20A674FF00FB3C9A /* Search.swift */,
+				46F6E58020A675CD00FB3C9A /* SearchViewController.swift */,
+				46F6E58220A6761C00FB3C9A /* MessageDetailCell.swift */,
+				466B1178210A625D00414C46 /* MessagesDetailCell.xib */,
+				46F6E58420A6770000FB3C9A /* SearchCell.swift */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
+		46A1935420B4A28C00E9ABA2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				46A1935520B4A2E300E9ABA2 /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		46BB901C202D3E2900FFD55B /* Roboto Font */ = {
@@ -287,6 +350,7 @@
 				4600601A2028E6750086F0D6 /* Profile */,
 				4600601B2028E67E0086F0D6 /* Training */,
 				467C3309202E48D900B644ED /* Colors.swift */,
+				469E7BF920A371AF00337511 /* Messages */,
 			);
 			path = "Floor Meeting";
 			sourceTree = "<group>";
@@ -307,6 +371,14 @@
 				46D051BE202568730077A39B /* Info.plist */,
 			);
 			path = "Floor MeetingUITests";
+			sourceTree = "<group>";
+		};
+		46E4940120BDB198005ED7DC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				46E4940220BDB1AB005ED7DC /* Extensions.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		56FC403E9D8EBFF4318298C7 /* Pods */ = {
@@ -463,9 +535,11 @@
 				46BB9038202D461000FFD55B /* Roboto-Medium.ttf in Resources */,
 				46BB9039202D461000FFD55B /* Roboto-MediumItalic.ttf in Resources */,
 				46BB903A202D461000FFD55B /* Roboto-Regular.ttf in Resources */,
+				466B1179210A625D00414C46 /* MessagesDetailCell.xib in Resources */,
 				46BB903B202D461000FFD55B /* Roboto-Thin.ttf in Resources */,
 				46BB903C202D461000FFD55B /* Roboto-ThinItalic.ttf in Resources */,
 				460060042028C1EA0086F0D6 /* Residents.storyboard in Resources */,
+				469E7BFB20A3720C00337511 /* Messages.storyboard in Resources */,
 				46D051A7202568730077A39B /* LaunchScreen.storyboard in Resources */,
 				46D051A4202568730077A39B /* Assets.xcassets in Resources */,
 				46D051A2202568730077A39B /* Main.storyboard in Resources */,
@@ -551,13 +625,17 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Floor Meeting/Pods-Floor Meeting-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -651,22 +729,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46F6E58720A793AD00FB3C9A /* CreateAccountViewController.swift in Sources */,
 				4629E6BA202C00E700915D33 /* DutyNav.swift in Sources */,
 				4600601E202A29200086F0D6 /* AppStoryboard.swift in Sources */,
+				46F6E58320A6761C00FB3C9A /* MessageDetailCell.swift in Sources */,
+				46A1935820B5B4A800E9ABA2 /* UploadPhotoViewController.swift in Sources */,
+				469E7BFF20A373AB00337511 /* MessagesNav.swift in Sources */,
 				4629E6B6202C00C600915D33 /* EventsNav.swift in Sources */,
 				467C330A202E48D900B644ED /* Colors.swift in Sources */,
 				460060162028E6380086F0D6 /* TrainingViewController.swift in Sources */,
+				46A1935620B4A2E300E9ABA2 /* User.swift in Sources */,
 				4629E6B8202C00D400915D33 /* ResidentsNav.swift in Sources */,
 				4600600C2028DD3E0086F0D6 /* tabBarViewController.swift in Sources */,
 				46D051CB20258D830077A39B /* LoginViewController.swift in Sources */,
 				46F63F5D202C138100DBE28A /* PlanDutyViewController.swift in Sources */,
 				4629E6B2202BFF9700915D33 /* TrainingNav.swift in Sources */,
 				460060102028E6180086F0D6 /* ResidentsViewController.swift in Sources */,
+				46F6E58520A6770000FB3C9A /* SearchCell.swift in Sources */,
 				46D0519F202568730077A39B /* ViewController.swift in Sources */,
+				46F6E57920A6697800FB3C9A /* MessageDetail.swift in Sources */,
+				46E4940320BDB1AB005ED7DC /* Extensions.swift in Sources */,
+				469E7BFD20A3723F00337511 /* MessagesViewController.swift in Sources */,
+				46F6E58120A675CD00FB3C9A /* SearchViewController.swift in Sources */,
 				460060122028E6220086F0D6 /* EventsViewController.swift in Sources */,
 				4600600E2028E5F00086F0D6 /* DutyViewController.swift in Sources */,
 				4629E6B4202C00B500915D33 /* ProfileNav.swift in Sources */,
+				46F6E57720A6664A00FB3C9A /* Message.swift in Sources */,
+				46F6E57D20A674C000FB3C9A /* MessagesCell.swift in Sources */,
 				460060142028E62C0086F0D6 /* ProfileViewController.swift in Sources */,
+				46F6E57F20A674FF00FB3C9A /* Search.swift in Sources */,
+				46F6E57B20A6732A00FB3C9A /* MessageVC.swift in Sources */,
 				46D0519D202568730077A39B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

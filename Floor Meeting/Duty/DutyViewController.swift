@@ -11,8 +11,9 @@ import Firebase
 
 
 
-class DutyViewController: UIViewController {
+class DutyViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
+    @IBOutlet weak var dutyCollectionView: UICollectionView!
     let rootRef = Database.database().reference()
 
     @IBAction func dismissButton(_ sender: Any) {
@@ -32,6 +33,7 @@ class DutyViewController: UIViewController {
     @IBOutlet weak var dropDownIcon: UIButton!
     @IBOutlet weak var onDutyTodayView: UIView!
     
+    let dutyViews : [String] = ["Plan","Swap","Log"]
     
     
     
@@ -92,20 +94,29 @@ class DutyViewController: UIViewController {
             b?.titleLabel?.textAlignment = NSTextAlignment.center
         }
         
-        logButton?.setTitle("LOG", for: .normal)
-        swapButton?.setTitle("SWAP", for: .normal)
-        planButton?.setTitle("PLAN", for: .normal)
-        emergencyButton?.setTitle("EMERGENCY\nCONTACT", for: .normal)
-        
-        //Dropview initialization
-//        self.view.addSubview(self.dropView)
-//        self.dropView.backgroundColor = UIColor.landon()
-        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 3
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)
+        cell.backgroundColor = UIColor.white
+        let label = UILabel()
+        label.frame.size.width = 180
+        label.frame.size.height = 90
+        label.center = cell.center
+        label.center.x = cell.center.x
+        label.center.y = cell.center.y
+        label.font = label.font.withSize(65)
+        label.textAlignment = .center
+        label.textColor = UIColor.campbell()
+        label.text = dutyViews[indexPath.row]
+        cell.addSubview(label)
+        
+        return cell
     }
     
 }
